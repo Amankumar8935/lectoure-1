@@ -1,3 +1,5 @@
+//Ecma Script to make rule for JavaScript 
+
 // operater 
 // Arithmetic Operator 
 
@@ -81,3 +83,28 @@ let a4= 10;
 let  bv=String(a4);
 
 console.log(typeof  bv);
+
+
+console.log(Number(true));
+console.log(Number(false));
+console.log(Number(null)); // null convert in 0
+console.log(Number(undefined)); // undefined converrt in NaN
+
+// Boolean Convert 
+
+console.log(Boolean(10));// True
+console.log(Boolean(-10));//True
+console.log(Boolean(0));  // Flase
+console.log(Boolean("Hello World"));// True
+console.log(Boolean(""));// Flase 
+console.log(Boolean(undefined)); // Flase
+console.log(Boolean(NaN)); // false 
+console.log(Boolean(null)); // false
+
+//  Computer Science Challenge
+
+let a1=0.1;
+let a2=0.2;
+let c3=a1+a2;
+// console.log(c3==0.3);// he provied flase
+console.log(c3);
