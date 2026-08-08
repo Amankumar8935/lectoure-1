@@ -108,3 +108,11 @@ let a2=0.2;
 let c3=a1+a2;
 // console.log(c3==0.3);// he provied flase
 console.log(c3);
+// The Rule no 1 :- NUll is loosely  equal to  undefined only 
+console.log(null==undefined);
+console.log(null===undefined);
+console.log(null==0);
+console.log(null=="");
+console.log(null==false);
+console.log(null==true);
+  
