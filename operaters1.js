@@ -116,3 +116,72 @@ console.log(null=="");
 console.log(null==false);
 console.log(null==true);
   
+// <,>,>=,<=,(null --> number, undefined --> NaN)
+
+console.log(null>=0);
+console.log(null<=0);
+console.log(null>0);
+console.log(null<0);
+console.log(null>=undefined);
+console.log(undefined>=0);
+
+console.log("Rohit">"Mohit");// he compare the ASCII value of every letter 
+
+// ek koi bhi type hai or usko compare karna hai kisi dusre type saa  to 
+// dono number me convert hogaa
+
+console.log(null>="");
+
+console.log(NaN == NaN); // This is not equal 
+
+
+
+
+// loop in java script how it works
+
+// For loop 
+   // post increment varibale ka name ke baad lagate hai  ++  
+ console.log("For Loop");
+for( let i1= 0; i1<10; i1++){
+    console.log(i1);
+}
+// post Decrement 
+for( let i2= 10; i2>0; i2--){
+    console.log(i2);
+}
+
+//   While loop
+console.log("While Loop");
+let i3 = 0;
+
+while (i3<10) {
+    console.log(i3);
+    i3++;
+    
+}
+
+// do while loop
+console.log("Do While Loop");
+
+let i4=0;
+do 
+{
+    console.log(i4);
+    i4++;
+
+}
+while(i4<10);
+
+// if else Condition 
+
+console.log("if else condtion");
+
+let age=15;
+if(age>=18)
+{
+    console.log("Eligible for vote");
+}
+else 
+{
+    console.log("Not Eligible  for Vote");
+}
